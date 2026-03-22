@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-breakout{
+    background-color: #ffcaba;
+    margin-inline: auto;
+}
+
+.container{
+    max-width: 1110px;
+    margin-inline: auto;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 24px;
+    align-items: center;
+}
+.header-box{
+    display: flex;
+    gap: 32px;
+}
+.header-input input{
+    border: none;
+    background-color: #ffcaba;
+    padding-block: 12px;
+  
+}
+.header-input input::placeholder{
+    color: #000;
+    font-family: open sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.header-input{
+    display: flex;
+    justify-content: space-between;
+    width:327px;
+    padding-inline: 16px;
+    border-bottom: 1px solid #000;
+   
+}
+
+.hero-container{
+    display: flex;
+    gap: 24px;
+}
+.hero-box{
+    
+    padding-top: 103px;
+}
+.hero-box h2{
+    font-family:montserrat ;
+    font-size:40px ;
+    font-weight:600;
+    line-height:48px;
+    margin-bottom: 16px;
+    color: #212121;
+}
+.hero-box p{
+    font-family: open sans ;
+    font-size:16px ;
+    font-weight:400;
+    line-height:28px;
+    margin-bottom: 32px;
+    color: #212121;
+}
+.hero-box a{
+text-decoration: none;
+color: #212121;
+ 
+}
+
+.yellow-sofa{
+    
+    padding-top: 144px;
+    padding-bottom: 136px;
+
+}
+.explore{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    font-family:montserrat ;
+   font-size:18px ;
+   font-weight:700;
+   line-height:32px;
+   img{
+    margin-bottom: -4px;
+   }
+}
+.brands-container{
+padding-block: 56px;
+}
+.brands-container p{
+    font-family: open sans ;
+    font-size:14px ;
+    font-weight:400;
+    line-height:24px;
+    margin-bottom: 24px;
+    color: #807E7E;
+}
+.brands{
+    display: flex;
+    gap: 94.5px;
+}
+.section02-container{
+    display: flex;
+    gap: 24px;
+    padding-top: 64px;
+    padding-bottom: 80px;
+}
+.green-sofa{
+    background-color: #e6f0ff;
+    border-radius: 6px;
+}
+.green-sofa img{
+    margin-bottom: 40px;
+}
+.lamp{
+    border-radius: 6px;
+    background-color: #fafafb;
+   img{
+    margin-bottom: 40px;
+
+   }
+}
+.section02-container p{
+   font-family:montserrat ;
+   font-size:20px ;
+   font-weight:600;
+   line-height:30px;
+   margin-left: 40px;
+   margin-bottom: 40px;
+}
+.section03-container{
+    padding-block: 48px;
+}
+.section03-container h4{
+font-family:montserrat ;
+ font-size:20px ;
+ font-weight:600;
+ line-height:30px;
+ margin-bottom: 24px;
+ padding-bottom: 16px;
+ border-bottom: 1px solid #eaeaea;
+}
+
+.productions{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 80px;
+}
+.product img{
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+.product h6{
+    font-family: open sans ;
+    font-size:12px ;
+    font-weight:400;
+    line-height:21px;
+    margin-bottom: 4px;
+    color: #807E7E;
+}
+.product h5{
+    font-family: open sans ;
+    font-size:16px ;
+    font-weight:400;
+    line-height:28px;
+    margin-bottom: 8px;
+}
+.product p{
+    font-family: open sans ;
+    font-size:16px ;
+    font-weight:600;
+    line-height:28px;
+    margin-bottom: 8px;
+}
+
+.section04-container{
+    display: flex;
+}
+
+
+
+.section04-container{
+    display: flex;
+    background-color: #fafafb;
+    border-radius: 6px;
+    
+    
+}
+
+.section04-box{
+    padding-top: 128px;
+    padding-left: 97px;
+    padding-bottom: 211px;
+    padding-right: 86px;
+}
+.section04-box h4{
+ font-family:montserrat ;
+ font-size:30px ;
+ font-weight:600;
+ line-height:37px;
+ margin-bottom: 8px;
+}
+.section04-box p{
+    font-family: open sans ;
+    font-size:14px ;
+    font-weight:400;
+    line-height:24px;
+    margin-bottom: 40px;
+}
+.section04-box a{
+    text-decoration: none;
+    color: #212121;
+}
+.section05-container{
+    padding-block: 56px;
+}
+.section05-container p{
+    padding-bottom: 16px;
+    border-bottom: 1px solid #eaeaea;
+    font-family:montserrat ;
+    font-size:20px ;
+    font-weight:600;
+    line-height:30px;
+}
+
+
+
+.Featured-Products{
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.Featured-Product {
+position: relative;
+}
+
+.Featured-Product h5{
+position: absolute;
+padding: 16px;
+background-color: #fff;
+border-radius: 6px;
+left: 24px;
+bottom: 24px;
+font-family:montserrat ;
+font-size:20px ;
+font-weight:600;
+line-height:30px;
+
+}
+.section06-container{
+    padding-block: 80px;
+}
+.topic{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 17px;
+}
+.topic h4{
+    font-family:montserrat ;
+    font-size:20px ;
+    font-weight:600;
+    line-height:30px;
+}
+
+.topic a{
+   font-family:montserrat ;
+    font-size:14px ;
+    font-weight:600;
+    line-height:24px; 
+    text-decoration: none;
+    color: #212121;
+    display: flex;
+    gap: 4px;
+}
+.articles{
+    padding-top: 24px;
+    display: flex;
+    gap: 24px;
+}
+.article p{
+    font-family: open sans ;
+    font-size:12px ;
+    font-weight:400;
+    line-height:21px;
+    color: #807E7E;
+    margin-top: 16px;
+}
+.article h5{
+    font-family: open sans ;
+    font-size:16px ;
+    font-weight:600;
+    line-height:28px;
+    color: #212121;
+}
+
+.border{
+border-top: 1px solid #eaeaea;
+border-bottom:1px solid #eaeaea ;
+
+}
+.fabrx-container{
+    padding-block: 72px;
+    display: flex;
+}
+.fabrx-box{
+    margin-right: 118px;
+}
+.fabrx-box img{
+    margin-bottom: 24px;
+}
+.fabrx-box p{
+    
+    color: #52647C;
+   font-family:open sans ;
+    font-size:14px ;
+    font-weight:400 ;
+    line-height:24px ;
+}
+
+.columns{
+    display: flex;
+    gap: 88px;
+}
+.Column h6{
+    font-family:open sans ;
+    font-size:14px ;
+    font-weight:700 ;
+    line-height:24px ;
+}
+.Column p{
+    font-family:open sans ;
+    font-size:14px ;
+    font-weight:400 ;
+    line-height:24px ;
+    color: #807E7E;
+    margin-bottom: 8px;
+}
+.footer-container{
+    padding-block: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-medya{
+    display: flex;
+    gap: 40px;
+}
+.footer-container p{
+    font-family:open sans ;
+    font-size:14px ;
+    font-weight:400 ;
+    line-height:24px ;
+    color: #807E7E;
+}
